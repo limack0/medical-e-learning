@@ -126,7 +126,7 @@ Entities
 
 The use case diagram shows the interactions between users (actors) and the system.(refer to UseCaseDiagram.drawio)
 
-ctors
+Actors
 
     Student:
 
