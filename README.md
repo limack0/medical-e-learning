@@ -2,7 +2,7 @@
 
 As a low level programmer, the objective is to create a kind of social network for medical student based on React expo django restAPI and postgresql
 
-Below is class diagram shows the relationships between the main entities (models) in the system.
+Below is class diagram shows the relationships between the main entities (models) in the system. (refer to ClassDiagram.drawio)
 Entities
 
     User:
@@ -52,3 +52,19 @@ Entities
         Attributes: id, file, uploaded_at
 
         Relationships: Associated with User.
+
+The use case diagram shows the interactions between users (actors) and the system.(refer to UseCaseDiagram.drawio)
+
+ctors
+
+    Student:
+
+        Can ask questions, comment on questions, take quizzes, subscribe to classrooms, and upload files.
+
+    Trainer:
+
+        Can create quizzes, create classroom sessions, answer questions, and upload files.
+
+    Admin:
+
+        Can manage users, questions, quizzes, classrooms, and files.
